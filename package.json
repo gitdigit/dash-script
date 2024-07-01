@@ -1,0 +1,20 @@
+{
+  "dependencies": {
+    "vite": "^5.3.2"
+  },
+  "name": "dash-script",
+  "version": "1.0.0",
+  "description": "Game to type faster",
+  "main": "type.js",
+  "devDependencies": {
+    "vite": "^5.3.2"
+  },
+  "scripts": {
+    "start": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "keywords": [],
+  "author": "Jennifer",
+  "license": "MIT"
+}
