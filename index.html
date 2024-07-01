@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jeu de dactylographie</title>
+    <link rel = "stylesheet" href = "style.css"
+</head>
+<body>
+    <div class="wrapper">
+        <div class="gameContainer">
+            <h2>DashScript</h2>
+            <div class="gameStatus">
+                <div class="timerDisplay">
+                    Timer: <span id="timer">30</span> s
+                </div>
+                <div class="mistakesCount">
+                    Mistakes: <span id="mistakes">0</span>
+                </div>
+                <div class="pointsDisplay">
+                    Points: <span id="points">0</span>
+                </div> 
+                <div class="dashDisplay">
+                    WPM: <span id="dash">0</span>
+                </div>
+            </div>
+            <div class="text" id="text-to-type"></div>
+            <input type="text" id="input-field" placeholder="Commencez à taper..." autofocus />
+        </div>
+    </div>
+    <script src="type.js"></script>
+</body>
+</html>
